@@ -1,4 +1,29 @@
-# Data Science Final Project
+
+## Project Title
+
+Text Mining of English Tweets in Nepal between 2015/5 to 2016/4
+
+## Tools
+
+SQL, Python, NLTK, R, a cloud computing platform hosted by University of Missouri.
+
+## Data
+
+English Tweets in Nepal between 2015/5 to 2016/4 were analyzed by various Text Mining methods.
+
+## Data Exploratory
+
+Two most mentioned terms in this period were “earthquake” and “India”, which corresponded to two major events occurred in Nepal: (1) The earthquake on May 12th, 2015 and (2) The blockage due to Nepal-India crisis on Sep 23rd, 2015. 
+Five most influential tweeter users were identified by counting the number of retweets. 
+
+## Sentiment Analysis & Modeling
+
+Sentiment scores of the tweets were calculated by the “Vader” package in the NLTK library. 
+Four models (Decision Tree, Linear Regression, Naïve Bayes, Support Vector Machine) were built to predict the sentiment scores based on features of tweets, including time, the numbers of followers and following, the number of favorites, the lengths of tweets, the lengths of hashtags, and relative positions of hashtags. 
+The decision tree model outperformed other models. 
+The tweets sent by influencers were more dispersed in sentiment scores.
+
+## Instruction
 
 1. "data_carpentry_exploration.ipynb" contains all the codes for data carpentry and exploratory analysis with visualizations. 
 
