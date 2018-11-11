@@ -19,7 +19,7 @@ Five most influential tweeter users were identified by counting the number of re
 ## Sentiment Analysis & Modeling
 
 Sentiment scores of the tweets were calculated by the “Vader” package in the NLTK library. 
-Four models (Decision Tree, Linear Regression, Naïve Bayes, Support Vector Machine) were built to predict the sentiment scores based on features of tweets, including time, the numbers of followers and following, the number of favorites, the lengths of tweets, the lengths of hashtags, and relative positions of hashtags. 
+Four models (Decision Tree, Linear Regression, Naïve Bayes, Support Vector Machine) were built to model the sentiment scores based on features of tweets, including time, the numbers of followers and following, the number of favorites, the lengths of tweets, the lengths of hashtags, and relative positions of hashtags. 
 The decision tree model outperformed other models. 
 The tweets sent by influencers were more dispersed in sentiment scores.
 
